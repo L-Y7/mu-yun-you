@@ -2,6 +2,7 @@
 import { defineAsyncComponent } from 'vue'
 
 const CCard = defineAsyncComponent(() => import('./CCard.vue'))
+const GreenCard = defineAsyncComponent(() => import('./GreenCard.vue'))
 const CHeader = defineAsyncComponent(() => import('./CHeader.vue'))
 </script>
 <template>
@@ -28,7 +29,7 @@ const CHeader = defineAsyncComponent(() => import('./CHeader.vue'))
         <CCard></CCard>
         <CCard></CCard>
         <CCard></CCard>
-        <CCard></CCard>
+        <GreenCard></GreenCard>
       </div>
     </div>
   </div>
