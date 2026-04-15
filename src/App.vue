@@ -1,11 +1,9 @@
 <script setup>
-import { defineAsyncComponent } from 'vue'
+import IndexPage from '@/views/home/indexPage.vue'
 
-const IndexPage = defineAsyncComponent(() => import('@/views/home/indexPage.vue'))
 </script>
 
 <template>
-  <IndexPage></IndexPage>
+  <IndexPage />
+  
 </template>
-
-<style></style>
