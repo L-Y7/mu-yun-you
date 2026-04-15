@@ -25,15 +25,18 @@
       <div class="mr"></div>
     </div>
   </div>
+  <div class="wen">
   <div class="bottom">
     <div class="center-wrap">
       <h1 class="bh">慕云游商城</h1>
     </div>
   </div>
+  </div>
 </template>
 <style scoped>
 .center-wrap {
   position: relative;
+  height: 225px;
 }
 .top .topone {
   display: flex;
@@ -113,12 +116,11 @@
   width: 90px;
   height: 90px;
 }
+
 .bottom {
   height: 225px;
   background: #1c1f21;
   width: 100%;
-  position: absolute;
-  bottom: -1600px;
   color: #ffffff;
 }
 .bh {

@@ -13,7 +13,9 @@
   </div>
 </template>
 <style scoped>
-
+.centerwrap{
+  height: 150px;
+}
 
 .fourimg {
   display: flex;

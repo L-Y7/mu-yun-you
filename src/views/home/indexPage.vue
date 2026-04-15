@@ -4,12 +4,13 @@ import { Icon } from '@iconify/vue'
 const HeaderComp = defineAsyncComponent(() => import('./components/HeaderComp.vue'))
 const AnotherComp = defineAsyncComponent(() => import('./components/anotherPage.vue'))
 const MainComp = defineAsyncComponent(() => import('./components/mainPage.vue'))
-const GridComp = defineAsyncComponent(() => import('./components/gridPage.vue'))
+const FreeTravelPage = defineAsyncComponent(() => import('./components/freeTravelPage/indexPage.vue'))
+const OnComp = defineAsyncComponent(() => import('./components/OnPage.vue'))
 const BottomComp = defineAsyncComponent(() => import('./components/bottomPage.vue'))
 </script>
 
 <template>
-  <div >
+  <div>
     <HeaderComp> </HeaderComp>
 
     <main class="banner">
@@ -44,7 +45,8 @@ const BottomComp = defineAsyncComponent(() => import('./components/bottomPage.vu
     </main>
     <AnotherComp></AnotherComp>
     <MainComp></MainComp>
-    <GridComp></GridComp>
+    <FreeTravelPage></FreeTravelPage>
+    <OnComp></OnComp>
     <BottomComp></BottomComp>
   </div>
 </template>
